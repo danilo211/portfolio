@@ -1,0 +1,39 @@
+<!-- Arquivo: frontend/index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Jonas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TRABALHO ALEX</h1>
+
+    <div id="form-adicionar">
+        <h2>Adicionar Pessoa</h2>
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="number" id="idade" placeholder="Idade">
+        <button onclick="adicionarPessoa()">Adicionar</button>
+    </div>
+
+    <div id="lista-pessoas">
+        <h2>Lista de Pessoas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-pessoas">
+                <!-- Dados da tabela virão aqui via JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

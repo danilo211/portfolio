@@ -1,0 +1,92 @@
+/* Arquivo: frontend/style.css */
+
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo base para o corpo */
+body {
+    background-color: #000; /* Preto */
+    color: #00ff00; /* Verde neon */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #00ff00; /* Verde neon */
+}
+
+/* Estilo dos inputs e botões */
+input, button {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #00ff00; /* Verde neon */
+    font-size: 1em;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Estilo dos inputs ao focar */
+input:focus {
+    border-color: #00cc00; /* Verde mais claro */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.3);
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #00ff00; /* Verde neon */
+    color: #000; /* Preto */
+    cursor: pointer;
+}
+
+/* Alteração de cor do botão ao passar o mouse */
+button:hover {
+    background-color: #00cc00; /* Verde mais claro */
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Estilo da tabela e bordas */
+table, th, td {
+    border: 1px solid #00ff00; /* Verde neon */
+    padding: 12px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Estilo das células de cabeçalho */
+th {
+    background-color: #00ff00; /* Verde neon */
+    color: #000; /* Preto */
+}
+
+/* Estilo das linhas alternadas da tabela */
+tr:nth-child(even) {
+    background-color: #111; /* Preto suave */
+}
+
+/* Estilo das linhas da tabela ao passar o mouse */
+tr:hover {
+    background-color: #222; /* Preto mais escuro */
+}
+
+/* Adicionando um contêiner para centralizar o conteúdo */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Cinza escuro para contraste */
+    border-radius: 8px;
+}
